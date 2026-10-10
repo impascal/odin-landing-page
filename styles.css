@@ -19,17 +19,12 @@ a {
     text-decoration: none;
 }
 
-.top-section {
+.header {
     background-color: #1F2937;
     color: white;
 
-    padding: 10px 100px;
-    
-    display: flex;
-    flex-flow: column nowrap;
-}
+    padding: 10px 100px 0px;
 
-.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -48,4 +43,14 @@ a {
 
     display: flex;
     gap: 24px;
+}
+
+.top-section {
+    background-color: #1F2937;
+    color: white;
+
+    padding: 75px 100px;
+    
+    display: flex;
+    flex-flow: row nowrap;
 }
