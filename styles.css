@@ -23,7 +23,7 @@ a {
     background-color: #1F2937;
     color: white;
 
-    padding: 10px 100px 0px;
+    padding: 10px 300px 0px;
 
     display: flex;
     justify-content: space-between;
@@ -49,8 +49,47 @@ a {
     background-color: #1F2937;
     color: white;
 
-    padding: 75px 100px;
+    padding: 100px 300px;
     
     display: flex;
     flex-flow: row nowrap;
+}
+
+.title {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+
+    padding-right: 50px;
+}
+
+.title h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+
+    padding-right: 100px;
+    margin: 0px;
+}
+
+.title p {
+    font-size: 18px;
+    color: #E5E7EB;
+
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.title button {
+    background-color: #3882F6;
+    color: white;
+
+    font-weight: bold;
+
+    border-color: #3882F6;
+    border-radius: 8px;
+    box-shadow: none;
+
+    text-align: center;
+    padding: 5px 30px;
 }
