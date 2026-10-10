@@ -5,10 +5,42 @@ body {
 
     display: flex;
     flex-flow: column nowrap;
+    margin: 0px;
 }
 
 ul {
     margin: 0px;
     padding: 0px;
     list-style: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.top-section {
+    background-color: #1F2937;
+    color: white;
+
+    padding: 10px 100px;
+    
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header-links {
+    display: flex;
+    gap: 24px;
 }
