@@ -23,7 +23,7 @@ a {
     background-color: #1F2937;
     color: white;
 
-    padding: 10px 300px 0px;
+    padding: 20px 300px 0px;
 
     display: flex;
     justify-content: space-between;
@@ -91,4 +91,46 @@ a {
 
     text-align: center;
     padding: 5px 30px;
+}
+
+.info-section {
+    display: flex;
+    flex-direction: column;
+
+    padding: 10px 300px;
+}
+
+.info-section h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.illustrations {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+.illustrations li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 175px;
+}
+
+.illustrations .ill-image {
+    width: inherit;
+    height: 175px;
+
+    background-color: white;
+    border: 4px solid #3882F6;
+    border-radius: 12px;
+
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+.illustrations p {
+    text-align: center;
 }
