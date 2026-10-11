@@ -83,6 +83,20 @@ a {
     margin-bottom: 10px;
 }
 
+.hero-img {
+    width: 700px;
+    height: 350px;
+
+    flex-shrink: 0;
+
+    background-color: #717374;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .title button {
     background-color: #3882F6;
     color: white;
