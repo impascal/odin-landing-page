@@ -86,9 +86,8 @@ a {
 
     font-weight: bold;
 
-    border-color: #3882F6;
     border-radius: 8px;
-    box-shadow: none;
+    border: none;
 
     text-align: center;
     padding: 5px 30px;
