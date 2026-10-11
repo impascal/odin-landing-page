@@ -96,6 +96,7 @@ a {
 .info-section {
     display: flex;
     flex-direction: column;
+    gap: 25px;
 
     padding: 10px 300px;
 }
