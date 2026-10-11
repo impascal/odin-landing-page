@@ -39,10 +39,13 @@ a {
 
 .header-links {
     font-size: 18px;
-    color: #E5E7EB;
 
     display: flex;
     gap: 24px;
+}
+
+.header-links a {
+    color: #b2b5b9;
 }
 
 .hero-section {
@@ -74,7 +77,7 @@ a {
 
 .title p {
     font-size: 18px;
-    color: #E5E7EB;
+    color: #b2b5b9;
 
     margin-top: 0px;
     margin-bottom: 10px;
@@ -102,8 +105,11 @@ a {
 }
 
 .info-section h1 {
-    display: flex;
-    justify-content: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+
+    text-align: center;
 }
 
 .illustrations {
@@ -133,5 +139,7 @@ a {
 }
 
 .illustrations p {
+    font-size: 18px;
     text-align: center;
+    color: #454647;
 }
