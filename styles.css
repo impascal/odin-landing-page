@@ -161,21 +161,26 @@ a {
 
 .quote-section {
     color: #1F2937;
-    background-color: #E5E7EB;
+    background-color: #dce0e1;
 
-    padding: 0 450px;
+    align-items: center;
+    padding: 100px 490px;
 }
 
 .quote-section blockquote {
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
+
+    margin: 0px;
 }
 
 .quote-section .author {
     font-size: 24px;
     font-weight: 600;
     text-align: right;
+
+    margin-bottom: 0px;
 }
 
 .card {
@@ -191,7 +196,7 @@ a {
     border: none;
     border-radius: 12px;
 
-    padding: 40px 200px;
+    padding: 40px 190px;
 }
 
 .card h1 {
