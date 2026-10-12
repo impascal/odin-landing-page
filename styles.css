@@ -157,3 +157,23 @@ a {
     text-align: center;
     color: #454647;
 }
+
+.quote-section {
+    color: #1F2937;
+    background-color: #E5E7EB;
+
+    padding: 0 450px;
+}
+
+.quote-section blockquote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote-section .author {
+    font-size: 24px;
+    font-weight: 600;
+    text-align: right;
+}
+
