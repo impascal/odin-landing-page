@@ -98,6 +98,7 @@ a {
 }
 
 .title button {
+    font-size: 18px;
     background-color: #3882F6;
     color: white;
 
@@ -175,5 +176,48 @@ a {
     font-size: 24px;
     font-weight: 600;
     text-align: right;
+}
+
+.card {
+    background-color: #3882F6;
+    color: #F9FAF8;
+
+    margin: 0px 300px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border: none;
+    border-radius: 12px;
+
+    padding: 40px 200px;
+}
+
+.card h1 {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0px;
+}
+
+.card p {
+    font-size: 18px;
+    margin: 0px;
+}
+
+.card button {
+    font-size: 18px;
+    color: inherit;
+    background-color: inherit;
+    font-weight: bold;
+
+    width: fit-content;
+    height: fit-content;
+
+    border-radius: 8px;
+    border: 2px solid white;
+
+    text-align: center;
+    padding: 5px 30px;
 }
 
